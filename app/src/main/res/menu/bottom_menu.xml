@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@mipmap/action_home"
+        android:visible="true"
+        android:title="Home" />
+    <item
+        android:visible="true"
+        android:id="@+id/bottom_account"
+        android:title="Liked Posts"
+        android:icon="@mipmap/action_my_account" />
+</menu>
