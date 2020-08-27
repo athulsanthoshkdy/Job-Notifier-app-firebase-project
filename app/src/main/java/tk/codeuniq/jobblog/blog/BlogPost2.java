@@ -1,5 +1,7 @@
 package tk.codeuniq.jobblog.blog;
 
+import com.google.firebase.firestore.ServerTimestamp;
+
 import java.util.Date;
 
 public class BlogPost2 extends BlogPostId {
@@ -10,7 +12,7 @@ public class BlogPost2 extends BlogPostId {
             , content
             , image
             , thumb;
-
+    @ServerTimestamp
     public Date timestamp;
 
     public BlogPost2() {}
